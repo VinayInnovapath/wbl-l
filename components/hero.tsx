@@ -1,6 +1,7 @@
 import VideoThumb from "@/public/images/hero-image-01.jpg";
 import ModalVideo from "@/components/modal-video";
 import Car from '@/components/car'
+import Cards from "@/components/cards";
 
 
 export default function Hero() {
@@ -80,7 +81,7 @@ export default function Hero() {
             </div>
           </div>
          
-      <Car />
+    <Cards />
     
           
 
@@ -92,20 +93,7 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={1920}
             videoHeight={1080} /> */}
-          {/* <Carousel>
-            <div>
-              <img src="image1.jpg" alt="Image 1" />
-              <p className="legend">Caption 1</p>
-            </div>
-            <div>
-              <img src="image2.jpg" alt="Image 2" />
-              <p className="legend">Caption 2</p>
-            </div>
-            <div>
-              <img src="image3.jpg" alt="Image 3" />
-              <p className="legend">Caption 3</p>
-            </div>
-          </Carousel> */}
+          
         </div>
       </div>
     </section>
